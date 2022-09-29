@@ -1,0 +1,64 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.dashboard {
+  position: relative;
+  width: 1440px;
+  height: 1198px;
+  background: #fafbff;
+  outline: 1px solid red;
+}
+
+.sidemenu {
+  position: absolute;
+  width: 306px;
+  height: 1198px;
+  left: 0;
+  top: 0;
+  outline: 1px solid blue;
+}
+
+.losung {
+  position: absolute;
+width: 150px;
+height: 39px;
+left: 73px;
+top: 36px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 39px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+color: #000000;
+}
+
+.sidemenu ul {
+  position: absolute;
+  list-style: none;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: -0.01em;
+
+color: #9197B3;
+}
+
+.customers {
+  position: absolute;
+  width: 968px;
+  height: 812px;
+  left: 377px;
+  top: 128px;
+  outline: 1px solid green;
+}
